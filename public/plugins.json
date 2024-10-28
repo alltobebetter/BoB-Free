@@ -10,6 +10,11 @@
     "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/arxivsearch/openapi.json"
   },
   {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/chatpdf/openapi.json"
+  },
+  {
     "id": "duckduckgolite",
     "name": "DuckDuckGoLiteSearch",
     "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/duckduckgolite/openapi.json"
