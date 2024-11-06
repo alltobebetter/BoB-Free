@@ -8,14 +8,25 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? `😆 对话遇到了一些问题，不用慌:
-       \\ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \\ 2️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️`
-      : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \ 2️⃣ 如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问秘钥 🔑
-       \ 3️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️
-       `,
+      ? `🚀 **AIBoB：你的私人AI助理！**
+
+此模型为付费的高级模型，您可以尝试[输入或购买通行证](/#/auth)以使用高级模型，高级模型有更快的响应速度和质量。如果您确定您使用的为免费模型，请稍后重试，或者访问我们的[帮助页面](https://page.aibob.top/help/)。
+
+❤️ AIBoB已免费运营近9个月，期间未进行任何推广或广告投放。如果您觉得AIBoB对您有所帮助，欢迎[赞助我们](https://page.aibob.top/donate/ "赞助我们")，支持我们持续优化和改进。`
+      : `🚀 **AIBoB：你的私人AI助理！**
+
+整合国际顶尖AI模型：**Claude-3.5-Sonnet**、**Gemini-1.5-Pro**、**GPT-4o**和**o1**等20余种模型，兼具绘画，编程，识文件和角色扮演等一系列功能！
+
+✨ **核心特点：**
+
+* **全能助手：** 写作、翻译、编程、创作，一站搞定！
+* **超稳定：** 99.999%稳定运行，告别崩溃！
+* **价格优：** 市面最低价，物超所值！
+* **免费体验：** 无需付费，精选模型免费用！
+
+❤️ AIBoB已免费运营近9个月，期间未进行任何推广或广告投放。如果您觉得AIBoB对您有所帮助，欢迎[赞助我们](https://page.aibob.top/donate/ "赞助我们")，支持我们持续优化和改进。
+
+我们提供的免费试用模型已提供高质量服务。如需体验更高级模型及更快的响应速度，请[点击此处输入或购买通行证](/#/auth)。`,
   },
   Auth: {
     Return: "返回",
@@ -25,9 +36,9 @@ const cn = {
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
-    SaasTips: "配置太麻烦，想要立即使用",
+    SaasTips: "不知道密码是什么？这里获取！",
     TopTips:
-      "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+      "😆 AIBoB首发优惠，超低价体验最新版多模态大模型！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -311,11 +322,11 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
-        Label: "（性价比最高的方案）",
+        Title: "AIBoB × API",
+        Label: "（开发者方案）",
         SubTitle:
-          "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
-        ChatNow: "立刻对话",
+          "由 AIBoB 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+        ChatNow: "立刻购买",
       },
       AccessCode: {
         Title: "访问密码",
