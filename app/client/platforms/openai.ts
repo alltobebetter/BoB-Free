@@ -288,7 +288,10 @@ export class ChatGPTApi implements LLMApi {
         stream(
           chatPath,
           requestPayload,
-          getHeaders(),
+          {
+            ...getHeaders(),
+            "Model": modelConfig.model, // Add model information to headers
+          },
           tools as any,
           funcs,
           controller,
@@ -347,7 +350,10 @@ export class ChatGPTApi implements LLMApi {
           method: "POST",
           body: JSON.stringify(requestPayload),
           signal: controller.signal,
-          headers: getHeaders(),
+          headers: {
+            ...getHeaders(),
+            "Model": modelConfig.model, // Add model information to headers
+          },
         };
 
         // make a fetch request
@@ -368,6 +374,7 @@ export class ChatGPTApi implements LLMApi {
       options.onError?.(e as Error);
     }
   }
+
   async usage() {
     const formatDate = (d: Date) =>
       `${d.getFullYear()}-${(d.getMonth() + 1).toString().padStart(2, "0")}-${d
