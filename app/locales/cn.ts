@@ -576,7 +576,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `你好，有什么我可以帮助你的吗？
+
+> **有问题**？查看我们的[帮助文档](https://page.aibob.top/)！**传文件**？准备您自己的直链或者访问我们的[文件池](https://file.aibob.top/)！`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
