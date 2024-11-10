@@ -931,20 +931,13 @@ function _Chat() {
   const session = chatStore.currentSession();
   const config = useAppConfig();
   const fontSize = config.fontSize;
+  const [lastMessageTime, setLastMessageTime] = useState<number>(0);
   const fontFamily = config.fontFamily;
+
   const [showExport, setShowExport] = useState(false);
+
   const inputRef = useRef<HTMLTextAreaElement>(null);
-  
-  // 添加获取URL参数的逻辑
-  const getQueryParam = () => {
-    if (typeof window !== "undefined") {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get("q") || "";
-    }
-    return "";
-  };
-  
-  const [userInput, setUserInput] = useState(getQueryParam());
+  const [userInput, setUserInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const { submitKey, shouldSubmit } = useSubmitHandler();
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -1041,6 +1034,17 @@ function _Chat() {
       matchCommand.invoke();
       return;
     }
+    const now = Date.now();
+    const timeSinceLastMessage = now - lastMessageTime;
+    const minInterval = 5000; // 5秒 = 5000毫秒
+    
+    if (timeSinceLastMessage < minInterval) {
+      const remainingTime = Math.ceil((minInterval - timeSinceLastMessage) / 1000);
+      showToast(`您的发送速度太快了，请 ${remainingTime} 秒后再发送消息吧！`);
+      return;
+    }
+    
+    setLastMessageTime(now);
     setIsLoading(true);
     chatStore
       .onUserInput(userInput, attachImages)
