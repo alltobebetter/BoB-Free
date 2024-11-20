@@ -678,7 +678,8 @@ const cn = {
 **让我们携手同行，一起守护这个用爱发电的AI开放平台！**
 
 💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
-📁 文件处理？使用[文件池](https://files.aibob.top/)`,
+📁 文件处理？使用[文件池](https://files.aibob.top/)
+💖 考虑赞助？访问[给予一份赞助](https://help.aibob.top/donate/)，您的支持将帮助我们持续提供免费的服务！`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
