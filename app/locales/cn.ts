@@ -48,7 +48,8 @@ const cn = {
 
 💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
 📁 文件处理？使用[文件池](https://files.aibob.top/)
-💖 考虑赞助？访问[给予一份赞助](https://help.aibob.top/donate/)，您的支持将帮助我们持续提供免费的服务！`
+💖 考虑赞助？访问[给予一份赞助](https://help.aibob.top/donate/)，您的支持将帮助我们持续提供免费的服务！
+🔒 输入或购买获取的访问码以访问高级模型？在[访问码验证](/#/auth)里！`
       : `🌟 **AIBoB：用爱发电的AI开放平台**
 
 亲爱的朋友，这是一封来自理想主义者的真诚信：
@@ -89,7 +90,8 @@ const cn = {
 
 💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
 📁 文件处理？使用[文件池](https://files.aibob.top/)
-💖 考虑赞助？访问[给予一份赞助](https://help.aibob.top/donate/)，您的支持将帮助我们持续提供免费的服务！`,
+💖 考虑赞助？访问[给予一份赞助](https://help.aibob.top/donate/)，您的支持将帮助我们持续提供免费的服务！
+🔒 输入或购买获取的访问码以访问高级模型？在[访问码验证](/#/auth)里！`,
   },
   Auth: {
     Return: "返回",
