@@ -8,64 +8,26 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? `🌟 **AIBoB：让AI普惠每一个人**
+      ? `本站赞助商 **[晓兔AI](https://api.aischat.xyz/)** **支持所有主流大模型 稳定可靠**
 
-亲爱的用户：
+![xiaotu](https://i.gyazo.com/e02e4d6a1bb9c6982482165bfe7117ce.png)
 
-作为一个公益性质的AI开放平台，AIBoB始终秉持让AI技术惠及所有人的理念。我们提供：
+免费不代表廉价和滥用，我们希望AI可以惠及到千家万户。我们持续数月没有添加任何扰人的广告和商业化的内容，至此，我们更希望您可以 **[赞助我们！](https://help.aibob.click/donate/)** 您的倾力相助，换取我们走的更长久。
 
-💫 **特色服务：**
+😆 觉得站点不错？[赞助我们！](https://help.aibob.click/donate/)让这个站点持续更长时间！
+❓ 有问题？[访问帮助文档！](https://help.aibob.click/)
+🌐 使用API？[晓兔API！](https://api.aischat.xyz/)
+🤝 赞助或合作？[邮件联系我们！](mailto:sir@aibob.top)`
+      : `本站赞助商 **[晓兔AI](https://api.aischat.xyz/)** **支持所有主流大模型 稳定可靠**
 
-* 多个免费AI对话和绘图模型
-* 高级模型采用低价无限次策略
-* 无需注册，即开即用
-* 稳定可靠的服务器支持
+![xiaotu](https://i.gyazo.com/e02e4d6a1bb9c6982482165bfe7117ce.png)
 
-❤️ **我们的坚持：**
+免费不代表廉价和滥用，我们希望AI可以惠及到千家万户。我们持续数月没有添加任何扰人的广告和商业化的内容，至此，我们更希望您可以 **[赞助我们！](https://help.aibob.click/donate/)** 您的倾力相助，换取我们走的更长久。
 
-* 以远低于成本的价格提供服务
-* 持续技术优化，提升用户体验
-* 始终保持公益初心，让AI触手可及
-
-🙏 **需要你的支持：**
-
-* 如果AIBoB对你有帮助,请把AIBoB分享给更多需要的人
-
-让我们一起，让AI技术真正服务于每个人！
-
-💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
-📁 文件处理？使用[文件池](https://files.aibob.top/)
-💎 购买访问码？使用[爱发电](https://afdian.com/a/suaolin)
-🔒 输入访问码以访问高级模型？在[密码验证](/#/auth)`
-      : `🌟 **AIBoB：让AI普惠每一个人**
-
-亲爱的用户：
-
-作为一个公益性质的AI开放平台，AIBoB始终秉持让AI技术惠及所有人的理念。我们提供：
-
-💫 **特色服务：**
-
-* 多个免费AI对话和绘图模型
-* 高级模型采用低价无限次策略
-* 无需注册，即开即用
-* 稳定可靠的服务器支持
-
-❤️ **我们的坚持：**
-
-* 以远低于成本的价格提供服务
-* 持续技术优化，提升用户体验
-* 始终保持公益初心，让AI触手可及
-
-🙏 **需要你的支持：**
-
-* 如果AIBoB对你有帮助,请把AIBoB分享给更多需要的人
-
-让我们一起，让AI技术真正服务于每个人！
-
-💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
-📁 文件处理？使用[文件池](https://files.aibob.top/)
-💎 购买访问码？使用[爱发电](https://afdian.com/a/suaolin)
-🔒 输入访问码以访问高级模型？在[密码验证](/#/auth)`,
+😆 觉得站点不错？[赞助我们！](https://help.aibob.click/donate/)让这个站点持续更长时间！
+❓ 有问题？[访问帮助文档！](https://help.aibob.click/)
+🌐 使用API？[晓兔API！](https://api.aischat.xyz/)
+🤝 赞助或合作？[邮件联系我们！](mailto:sir@aibob.top)`,
   },
   Auth: {
     Return: "返回",
@@ -615,33 +577,16 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `🌟 **AIBoB：让AI普惠每一个人**
+    BotHello: `本站赞助商 **[晓兔AI](https://api.aischat.xyz/)** **支持所有主流大模型 稳定可靠**
 
-亲爱的用户：
+![xiaotu](https://i.gyazo.com/e02e4d6a1bb9c6982482165bfe7117ce.png)
 
-作为一个公益性质的AI开放平台，AIBoB始终秉持让AI技术惠及所有人的理念。我们提供：
+免费不代表廉价和滥用，我们希望AI可以惠及到千家万户。我们持续数月没有添加任何扰人的广告和商业化的内容，至此，我们更希望您可以 **[赞助我们！](https://help.aibob.click/donate/)** 您的倾力相助，换取我们走的更长久。
 
-💫 **特色服务：**
-
-* 多个免费AI对话和绘图模型
-* 高级模型采用低价无限次策略
-* 无需注册，即开即用
-* 稳定可靠的服务器支持
-
-❤️ **我们的坚持：**
-
-* 以远低于成本的价格提供服务
-* 持续技术优化，提升用户体验
-* 始终保持公益初心，让AI触手可及
-
-🙏 **需要你的支持：**
-
-* 如果AIBoB对你有帮助,请把AIBoB分享给更多需要的人
-
-让我们一起，让AI技术真正服务于每个人！
-
-💡 需要帮助？访问[帮助文档](https://help.aibob.top/)
-📁 文件处理？使用[文件池](https://files.aibob.top/)`,
+😆 觉得站点不错？[赞助我们！](https://help.aibob.click/donate/)让这个站点持续更长时间！
+❓ 有问题？[访问帮助文档！](https://help.aibob.click/)
+🌐 使用API？[晓兔API！](https://api.aischat.xyz/)
+🤝 赞助或合作？[邮件联系我们！](mailto:sir@aibob.top)`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
